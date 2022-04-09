@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="imagens/worldwide.svg" width="50" height="50" alt="logo">
@@ -37,6 +37,12 @@
                         <a class="nav-link active" aria-current="page" href="#">Sobre nós</a>
                     </li>
                 </ul>
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Entrar</a>
+                    </li>
+                    <button id="btn-color" class="btn btn-outline-success" type="submit">Cadastrar</button>
+                </ul>
             </div>
         </div>
     </nav>
@@ -44,11 +50,15 @@
     <section id="quemsomos">
         <div class="container-fluid text-center margin quemsomos">
             <div class="container">
-                <h5>Sobre nós</h5>
-                <p>Por que somos diferentes?</p>
-                <p>Nós focamos nos detalhes de tudo que fazemos.
-                    Tudo para ajudar as empresas de todo o mundo a se
-                    concentrarem naquilo que é realmente importante para elas.</p>
+                <br>
+                <h5 id="text-color">Sobre nós</h5>
+                <br>
+                <h3>Por que somos diferentes?</h3>
+                <br>
+                <p id="text-color-gray">Nós focamos nos detalhes de tudo que fazemos.
+                    Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo
+                    que é realmente importante para elas</p>
+                <br>
             </div>
         </div>
     </section>
@@ -58,24 +68,33 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
-                        <h5>400+</h5>
-                        <p>Projetos concluídos</p>
-                        <p>Nós ajudamos a construir mais de 400 projetos incríveis.</p>
+                        <br>
+                        <h2 id="text-color">400+</h2>
+                        <h6>Projetos concluídos</h6>
+                        <p id="text-color-gray">Nós ajudamos a construir mais de 400 projetos incríveis.</p>
                     </div>
                     <div class="col-lg-3">
-                        <h5>100+</h5>
-                        <p>Colaboradores</p>
-                        <p>Temos mais de 100 colaboradores no nosso time que se preocupam com nossos clientes.</p>
+                        <br>
+                        <h2 id="text-color">100+</h2>
+                        <h6>Colaboradores</h6>
+                        <p id="text-color-gray">Temos mais de 100 colaboradores no nosso time que se preocupam com
+                            nossos clientes.</p>
                     </div>
                     <div class="col-lg-3">
-                        <h5>20k</h5>
-                        <p>Downloads</p>
-                        <p>Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000 vezes.</p>
+                        <br>
+                        <h2 id="text-color">20k</h2>
+                        <h6>Downloads</h6>
+                        <p id="text-color-gray">Nossos projetos que estão disponíveis em lojas já foram baixados mais de
+                            20.000 vezes.</p>
+
                     </div>
                     <div class="col-lg-3">
-                        <h5>500+</h5>
-                        <p>Reviews 5 estrelas</p>
-                        <p>Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
+                        <br>
+                        <h2 id="text-color">500+</h2>
+                        <h6>Reviews 5 estrelas</h6>
+                        <p id="text-color-gray">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em
+                            nossos produtos.</p>
+                        <br>
                     </div>
                 </div>
             </div>
@@ -85,9 +104,11 @@
     <section id="vagas">
         <div class="container-fluid text-center margin vagas">
             <div class="container">
-                <h5>Vagas abertas</h5>
-                <p>Estamos procurando por talentos</p>
-                <p>Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
+                <br>
+                <h5 id="text-color">Vagas abertas</h5>
+                <br>
+                <h3>Estamos procurando por talentos</h3>
+                <p id="text-color-gray">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
                 <img src="imagens/Image.png" alt="pessoas">
                 <br>
             </div>
@@ -102,30 +123,41 @@
                         <br>
                         <h5>Design</h5>
                         <br>
-                        <h6>Product Designer</h6>
-                        <p>Full-time Faixa salarial: R$7.000</p>
+                        <div class="border-text">
+                            <h6>Product Designer</h6>
+                            <p id="text-color-gray">Full-time Faixa salarial: R$7.000</p>
+                        </div>
                         <br>
                     </div>
                     <div class="col-lg-8">
-                        <h6>UX Designer</h6>
-                        <p>Full-time Faixa salarial: R$6.000</p>
+                        <div class="border-text">
+                            <h6>UX Designer</h6>
+                            <p id="text-color-gray">Full-time Faixa salarial: R$6.000</p>
+                        </div>
                         <br>
                     </div>
                     <div class="col-lg-8">
                         <h5>Desenvolvimento de Software</h5>
                         <br>
-                        <h6>Desenvolvedor(a) iOS</h6>
-                        <p>Full-time Faixa salarial: R$8.000</p>
+                        <div class="border-text">
+                            <h6>Desenvolvedor(a) iOS</h6>
+                            <p id="text-color-gray">Full-time Faixa salarial: R$8.000</p>
+                        </div>
                         <br>
                     </div>
                     <div class="col-lg-8">
-                        <h6>Desenvolvedor(a) Front-end</h6>
-                        <p>Full-time Faixa salarial: R$7.000</p> 
-                        <br>                    
+                        <div class="border-text">
+                            <h6>Desenvolvedor(a) Front-end</h6>
+                            <p id="text-color-gray">Full-time Faixa salarial: R$7.000</p>
+                        </div>
+                        <br>
                     </div>
                     <div class="col-lg-8">
-                        <h6>Desenvolvedor(a) Back-end</h6>
-                        <p>Full-time Faixa salarial: R$8.000</p>                     
+                        <div class="border-text">
+                            <h6>Desenvolvedor(a) Back-end</h6>
+                            <p id="text-color-gray">Full-time Faixa salarial: R$8.000</p>
+                        </div>
+                        <br>
                     </div>
                 </div>
             </div>
@@ -136,14 +168,32 @@
         <div class="container-fluid text-center margin depoimento">
             <div class="container">
                 <br>
-                <h5>Veja o que nossos colaboradores falam sobre nós</h5>
+                <h5 id="text-color">Veja o que nossos colaboradores falam sobre nós</h5>
                 <p>OptimusTech se importa com a saúde dos seus colaboradores e sempre procura
-                nos dar todo tipo de auxílio possível.</p>
+                    nos dar todo tipo de auxílio possível.</p>
                 <br>
                 <img src="imagens/Avatar.png" alt="pessoa">
                 <p>Júlia Castro</p>
                 <p>Desenvolvedora Web</p>
                 <br>
+            </div>
+        </div>
+    </section>
+
+    <section id="oportunidades">
+        <div class="container-fluid text-center margin oportunidades">
+            <div class="container">
+                <br>
+                <h5>Acompanhe as nossas oportunidades</h5>
+                <br>
+                <p id="text-color-gray">Seja o primeiro a saber quando novas vagas serão abertas!</p>
+                <br>
+                <form>
+                    <input id="footer-input" type="text" placeholder="Seu e-mail">
+                    <button id="btn-color" type="submit">Cadastrar</button>
+                </form>
+                <br>
+                <p id="text-color-gray">© 2022 OptimusTech. Todos os direitos reservados.</p>
             </div>
         </div>
     </section>

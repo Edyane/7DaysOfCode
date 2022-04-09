@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+#text-color {
+    color: #8E2424;
+}
+
+#text-color-gray {
+    color: #667085;
+
+}
+
+#text-size {
+    font-size: 60px;
+}
+
+#footer-input {    
+    outline: none;
+    border: 1px solid #D0D5DD;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    width: 12rem;
+    margin-right: 1rem;    
+}
+
+#btn-color {
+    background: #8E2424;
+    color: #ffffff;
+    border: none;    
+    border-radius: 0.5rem;   
+    gap: 2rem; 
+}
+
+.border-text {
+    border: 1px solid #667085;
+    border-radius: 0.5rem;
+    margin-left: 35px;
+    padding-top: 20px;    
+}
